@@ -12,6 +12,9 @@ export default function Home() {
         <p className="text-xl text-gray-600 mb-6">
           Môn: Các công nghệ mới trong PTPM
         </p>
+        <p className="text-xl text-gray-600 mb-6">
+          Sở thích: chơi game / Mục tiêu: mua nhà mua xe
+        </p>
         <div className="bg-blue-100 rounded-lg p-4">
           <p className="text-blue-800">
             🚀 Đây là project Next.JS đầu tiên của tôi!
