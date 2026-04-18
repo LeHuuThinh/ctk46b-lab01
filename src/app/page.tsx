@@ -1,4 +1,6 @@
 import Link from "next/link";
+import Counter from "@/components/counter";
+
 export default function HomePage() {
   return (
     <div className="max-w-5xl mx-auto px-4 py-16">
@@ -17,7 +19,7 @@ items-center justify-center"
           Sinh viên Công nghệ Thông tin tại Đại học Đà Lạt. Đam mê phát triển
           web và khám phá các công nghệ mới.
         </p>
-        <div className="flex justify-center gap-4">
+        <div className="flex justify-center gap-4 mb-10">
           <Link
             href="/projects"
             className="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue700 transition-colors"
@@ -30,6 +32,12 @@ items-center justify-center"
           >
             Liên hệ
           </Link>
+        </div>
+        
+        {/* Test Counter component */}
+        <div className="flex flex-col items-center justify-center p-6 border rounded-xl bg-gray-50">
+          <h3 className="text-lg font-semibold mb-4 text-gray-700">Dùng thử Counter Component</h3>
+          <Counter />
         </div>
       </div>
       {/* Skills section */}
