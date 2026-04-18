@@ -18,7 +18,9 @@ rounded"
                 {post.category}
               </span>
               <span className="text-sm text-gray-400">{post.date}</span>
-              <span className="text-sm text-gray-500 font-medium">{post.author}</span>
+              <span className="text-sm text-gray-500 font-medium">
+                {post.author}
+              </span>
             </div>
             <Link href={`/blog/${post.slug}`}>
               <h2
