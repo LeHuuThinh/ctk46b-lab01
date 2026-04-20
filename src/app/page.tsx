@@ -33,10 +33,12 @@ items-center justify-center"
             Liên hệ
           </Link>
         </div>
-        
+
         {/* Test Counter component */}
         <div className="flex flex-col items-center justify-center p-6 border rounded-xl bg-gray-50">
-          <h3 className="text-lg font-semibold mb-4 text-gray-700">Dùng thử Counter Component</h3>
+          <h3 className="text-lg font-semibold mb-4 text-gray-700">
+            Dùng thử Counter Component
+          </h3>
           <Counter />
         </div>
       </div>
